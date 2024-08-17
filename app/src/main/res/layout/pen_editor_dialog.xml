@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="375dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/androidView"
+        android:layout_width="308dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="480dp"
+        android:contentDescription="@string/android_buddy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageButton
+        android:id="@+id/semiSphere"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/semiSphere_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/semisphere"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <ImageButton
+        android:id="@+id/sphere"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/sphere_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/sphere"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <ImageButton
+        android:id="@+id/cube"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/cube_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/cube"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <ImageButton
+        android:id="@+id/pen"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/pen_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/pen2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <ImageButton
+        android:id="@+id/eraser"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/eraser_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/eraser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+    <ImageButton
+        android:id="@+id/fillstroke"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/fill_stroke_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/fillstroke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/strokeSlider"
+        android:layout_width="357dp"
+        android:layout_height="48dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/stroke_slider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509"
+        app:thumbColor="@color/light_grey"
+        app:trackColor="@color/grey"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/alphaSlider"
+        android:layout_width="357dp"
+        android:layout_height="49dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/alpha_slider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618"
+        app:thumbColor="@color/light_grey"
+        app:trackColor="@color/grey"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/colorPicker"
+        android:layout_width="279dp"
+        android:layout_height="261dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/colorPicker"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/colorpicker"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/colorPreview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:contentDescription="@string/colorPreview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/returnButton"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/return_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/returnv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <ImageButton
+        android:id="@+id/background"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        android:background="@drawable/squareholder"
+        android:contentDescription="@string/background_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

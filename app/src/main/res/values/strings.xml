@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">DrawSimply</string>
+    <string name="perms_grant">Permission already granted</string>
+    <string name="storage_grant">Storage permissions granted</string>
+    <string name="storage_deny">Storage permissions denied</string>
+
+    <string name="new_button">New Canvas</string>
+    <string name="android_buddy">Android Buddy</string>
+    <string name="image_view">ImageView</string>
+    <string name="sphere_desc">Sphere</string>
+    <string name="eraser_desc">Eraser</string>
+    <string name="cube_desc">Cube</string>
+    <string name="return_desc">Return</string>
+    <string name="semiSphere_desc">Semi-Sphere</string>
+    <string name="fill_stroke_desc">Fill and Stroke</string>
+    <string name="background_desc">Background Color</string>
+    <string name="pen_desc">Pen</string>
+    <string name="stroke_slider">Stroke Slider</string>
+    <string name="alpha_slider">Alpha Slider</string>
+    <string name="colorPicker">Color Picker</string>
+    <string name="colorPreview">Color Preview</string>
+    <string name="pen_button">Pen</string>
+    <string name="undo_button">Undo</string>
+    <string name="redo_button">Redo</string>
+    <string name="clear_button">Clear</string>
+    <string name="save_button">Save</string>
+    <string name="add_button">Add</string>
+
+    <string name="new_canvas_toast">New Canvas</string>
+    <string name="redo_toast">Redo</string>
+    <string name="undo_toast">Undo</string>
+    <string name="clear_toast">Clear</string>
+    <string name="add_toast">Add</string>
+    <string name="pen_toast">Pen Editor</string>
+    <string name="return_toast">Return</string>
+    <string name="strokeSize_toast">Stroke Size Change</string>
+    <string name="alphaSize_toast">Alpha Change</string>
+    <string name="color_toast">Color Change</string>
+    <string name="sphere_toast">Cap Change</string>
+    <string name="cube_toast">Cap Change</string>
+    <string name="butt_toast">Cap Change</string>
+    <string name="fill_stroke_toast">Stroke Change</string>
+    <string name="penStyle_toast">Stroke Change</string>
+    <string name="eraser_toast">Eraser</string>
+    <string name="drawing_saved">Drawing Saved</string>
+    <string name="drawing_unsaved">Error: Drawing Not Saved</string>
+    <string name="background_toast">Background Change</string>
+    <string name="add_success_toast">Photo imported</string>
+    <string name="add_failed_toast">Error: Photo not imported</string>
+</resources>
